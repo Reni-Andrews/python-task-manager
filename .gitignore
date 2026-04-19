@@ -1,0 +1,11 @@
+# Ignore the virtual environment folder
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+
+# Ignore sensitive environment variables (Mandatory)
+.env
+
+# Ignore the local database file so reviewers start fresh
+tasks.json
